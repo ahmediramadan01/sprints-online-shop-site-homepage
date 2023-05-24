@@ -311,3 +311,117 @@ a.cart {
   justify-content: center;
   align-items: center;
 }
+
+section.hero {
+  margin: 32px 48px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.fashion {
+  background-image: url(../images/carousel-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  height: 430px;
+  width: 1250px;
+  font-family: Roboto, sans-serif;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+section.fashion h2 {
+  font-size: 56px;
+  font-weight: normal;
+  margin: 0;
+}
+
+section.fashion p {
+  flex-wrap: wrap;
+  max-width: 500px;
+  text-align: center;
+  margin: 0;
+}
+
+section.fashion button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 1px solid #ffffff;
+  border-radius: 0%;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-family: Roboto, sans-serif;
+  color: #ffffff;
+  padding: 12px 28px;
+}
+
+section.fashion button:hover {
+  transition: 2ms;
+  color: black;
+  background-color: #ffffff;
+}
+
+section.offers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section.offer-1 {
+  background-image: url("../images/offer-1.jpg");
+}
+
+section.offer-2 {
+  background-image: url("../images/offer-2.jpg");
+}
+
+section.offer-1,
+section.offer-2 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  height: 205px;
+  width: 550px;
+  font-family: Roboto, sans-serif;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+section.offer-1 h3,
+section.offer-2 h3 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+}
+
+section.offer-1 h2,
+section.offer-2 h2 {
+  font-size: 28px;
+  font-weight: normal;
+  margin: 0;
+}
+
+section.offer-1 button,
+section.offer-2 button {
+  background-color: #ffd333;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 0%;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-family: Roboto, sans-serif;
+  color: #3d464d;
+  padding: 8px 12px;
+}
