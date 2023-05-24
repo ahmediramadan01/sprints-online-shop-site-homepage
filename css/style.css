@@ -429,3 +429,32 @@ section.offer-2 button {
   color: #3d464d;
   padding: 8px 12px;
 }
+
+section.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 48px 0px;
+}
+
+section.feature {
+  box-sizing: border-box;
+  height: 100px;
+  width: 400px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 24px;
+}
+
+section.feature img {
+  height: 40px;
+  width: 40px;
+}
+
+section.feature h5 {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  color: #3d464d;
+}
